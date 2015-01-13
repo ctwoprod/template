@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cairngorm:ServiceLocator
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:mxsrv="mx.rpc.http.*"
+	xmlns:cairngorm="http://www.adobe.com/2006/cairngorm">
+	
+	<!--contoh saja-->
+	<mx:RemoteObject id="pnsService" destination="pnsService"/>	
+</cairngorm:ServiceLocator> 

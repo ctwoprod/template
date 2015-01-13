@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexProperties enableServiceManager="false" flexServerFeatures="4" flexServerType="2" serverContextRoot="/TestWebJava" serverRoot="C:/apache-tomcat-7.0.27/webapps/TestWebJava" serverRootURL="http://localhost:8080/TestWebJava" toolCompile="true" useServerFlexSDK="false" version="2"/>

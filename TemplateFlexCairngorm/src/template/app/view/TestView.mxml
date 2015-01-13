@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" width="400" height="300">
+
+	<fx:Script>
+		<![CDATA[
+			import template.app.event.TestEvent;
+			import template.app.model.ModelLocator;
+			
+			[Bindable]
+			private var model:ModelLocator = ModelLocator.getInstance();
+			protected function button1_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				//jalanin event
+				new TestEvent().dispatch();
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Button x="47" y="31" label="Button" click="button1_clickHandler(event)"/>
+	<s:Label x="85" y="83" text="{model.testVar}" width="60" height="33"/>
+</mx:Canvas>
